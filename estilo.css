@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+#imagem{
+	background-image: url(f3.jpg);
+	width: 	1351.4px;
+	height: 450px;
+	background-repeat: no-repeat;
+}
+
+.meu-botao {
+	background-color:transparent;
+	border-radius:10px;
+	border: 2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size: 22px;
+	padding:13px 26px;
+    font-weight:bold;
+	text-decoration:none;
+	margin-left: 500px;
+	position: absolute;
+	color: white;
+	margin-left: 600px;
+	text-align: center;
+	top: 300px;
+	text-shadow:0px 1px 0px black;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+}
+
+.meu-botao:hover {
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+.meu-botao:active {
+	position:relative;
+	top:1px;
+
+}
+
+
+#texto{
+	position: absolute;
+	color: #fff;
+	margin-left: 250px;
+	text-align: center;
+	top: 120px;
+	width: 900px;
+	line-height: 30px;
+	height: 30px;
+	font-family: Roboto, Arial, sans-serif;
+    font-size: 42px;
+}
+
+#texto2{
+	position: absolute;
+	color: #fff;
+	margin-left: 250px;
+	text-align: center;
+	top: 220px;
+	width: 900px;
+	line-height: 30px;
+	height: 30px;
+	font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+}
+
+h3{
+	text-align: right;
+	margin-right: 300px;
+	padding-top: 30px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 35px;
+
+}
+
+p{
+	float: right;
+	padding-top: 50px;
+	margin-right: 20px;
+}
+
+#video{
+	
+	float: left;
+	padding-top: 30px;
+	padding-left: 40px;
+	position: relative;
+	width: 40%;
+
+
+}
+
